@@ -27,8 +27,10 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t dbonillag/docker-graphql:0.0.2 .
+        docker build -t dbonillag/docker-graphql:latest .
 
     - name: Push Docker image
       run: |
         docker push dbonillag/docker-graphql:0.0.2
+        docker push dbonillag/docker-graphql:latest
 
