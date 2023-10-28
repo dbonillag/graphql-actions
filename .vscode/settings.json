@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "ca": "C:\\Users\\daniv\\Downloads\\ca-certificate.crt"
+                }
+            },
+            "previewLimit": 50,
+            "server": "teslodb-do-user-8308840-0.c.db.ondigitalocean.com",
+            "driver": "PostgreSQL",
+            "connectString": "postgresql://doadmin:show-password@teslodb-do-user-8308840-0.c.db.ondigitalocean.com:25060/defaultdb?sslmode=require",
+            "name": "teslodb",
+            "database": "teslodb",
+            "username": "teslo-user",
+            "password": "AVNS_8jZ4AjDkxqtmfIg8pw2"
+        }
+    ]
+}
